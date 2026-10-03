@@ -1,0 +1,22 @@
+Please give a brief description of your technical background.  What sorts of projects have you worked on?  What platforms?  Languages or frameworks used?  That is not a checklist, just some ideas of what to discuss.  
+What has been your most senior role in a software engineering organisation? Describe your span of control, and the diversity of products, functions and teams you led.
+What software products have you yourself led which shipped many releases to multiple customers? What was your role?
+What is your proudest success as an engineering leader?
+Please describe any direct involvement you may have had with the release of a public Linux distribution, what was your level of participation?
+Please describe some experiences with what you would consider a good software documentation process, what about it impressed you?  How would you have improved it?
+Please describe some experiences with what you would consider a good software quality process, or conversely one that you disliked and explain its shortcomings, what you would do differently, and why.
+Have you ever had to improve the performance of a software system?  Can you describe the situation and the steps you took?  What was the outcome?
+Have you ever had to identify and resolve a security exploit in a piece of software? Can you elaborate on the issue, how it was discovered and how you remedied it? 
+Describe your level of C programming ability, can you provide some specific examples?
+Describe your level of Python programming ability, can you provide some specific examples?
+Describe your level of Rust programming ability, can you provide some specific examples?
+Can you describe your level of Git proficiency?
+Please describe any experience you have developing, maintaining, or debugging operating system kernel source code, Linux or other.
+Describe some embedded system environments you may have worked with directly.  What specifically did you implement on these platforms?  Were there any notable challenges you faced and if so how did you overcome them?
+Have you worked in real-time systems? In Linux or other RTOS, and if the latter, which one(s)? Can you elaborate on some of the challenges you faced, and how you overcame them?
+What kind of packaging and container formats, such as debian or snap,  have you created and/or maintained?  Can you describe your experiences and challenges?  This is actually working with the format, not experience as a consumer.
+Have you ever worked directly with EFI, ACPI and/or DeviceTree as a developer?  Can you elaborate?
+Please list any open source projects you have actively participated in, what was your level of involvement?
+Have you ever worked directly with a CI/CD system, workflow engine, and/or other back-end process automation tools?  Which one(s) specifically and what was your level of involvement? 
+What is your experience with machine learning?  Can you describe any direct involvement with utilizing ANN’s and classification in particular?
+Kernel Engineering at Canonical is more heavily geared towards downstream backporting security updates, integrating vendor device support, packaging, and qualification of the Linux kernel rather than full-time upstream collaboration.  Can you describe how your prior experiences have prepared you for this sort of role?

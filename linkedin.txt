@@ -1,0 +1,14 @@
+My MHI loopback driver series is now merged into mainline Linux (v7, applied by Mani).
+
+The MHI spec defines a LOOPBACK channel that devices in the field already implement (modems, WLAN), with endpoint firmware that echoes back whatever the host sends. But Linux had no host-side driver to exercise it, so there was no direct way to validate MHI data path integrity between host and endpoint.
+
+The 3-patch series adds:
+→ A host driver that binds to the LOOPBACK channel, with a sysfs interface to configure transfer parameters, trigger a test, and read the result
+→ A new mhi_ep_queue_buf() API in the endpoint stack, so clients can queue raw buffers without an skb dependency
+→ An endpoint driver that echoes data back to the host, so both sides can be tested without special firmware
+
+Seven revisions in, the review made it a much better driver. It tightened channel teardown on failure paths, ring-capacity validation, and sysfs lifetime handling. Thank you to Mani for the reviews and for applying it, to Jeff Hugo, Uwe and Bjorn for detailed feedback, and to Krishna Chaitanya Chundru.
+
+If you bring up MHI-based devices and need to validate the data path, give it a try.
+
+#Linux #LinuxKernel #OpenSource #PCIe #MHI
